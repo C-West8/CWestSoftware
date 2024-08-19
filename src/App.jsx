@@ -3,6 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+/* 
+Useful commands for pushing code to gh-pages branch for website:
+  1. npm run build
+  2. git add . 
+  3. git commit -m "message"
+  4. git push origin main
+  5. git subtree push --prefix dist origin gh-pages
+*/
+
 function App() {
   const [count, setCount] = useState(0)
 
