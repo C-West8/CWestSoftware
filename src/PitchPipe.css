@@ -1,0 +1,20 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .button-container button {
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }
